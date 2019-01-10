@@ -2,11 +2,11 @@
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
-		_Glossiness ("Smoothness", Range(0,1)) = 0.5
+		_Glossiness ("Smoothness", Range(0,1)) = 0.0
 		_Metallic ("Metallic", Range(0,1)) = 0.0
-		_SpotAngle("Spot Angle", Float) = 10.0
-		_Range("Range", Float) = 30
-		_Contrast("Contrast", Range(20.0, 80.0)) = 20.0
+		_SpotAngle("Spot Angle", Float) = 60.0
+		_Range("Range", Float) = 20
+		_Contrast("Contrast", Range(20.0, 80.0)) = 50.0
 	}
 	SubShader {
 		Tags { "Queue" = "Transparent" "RenderType" = "Transparent" "IgnoreProjector" = "True"}
