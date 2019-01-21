@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/OutsideLighthouseScene.unity
+    guid: 2a76f21c3b8369d4f95dad0e58fc85ec
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: b6d17ea5061617344a43d6189c1d29f0
