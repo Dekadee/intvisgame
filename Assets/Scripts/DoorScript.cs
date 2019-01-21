@@ -19,6 +19,8 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private Interactable interactable;
 
+        private bool audioDone = false;
+
         //-------------------------------------------------
         void Awake()
         {
@@ -51,8 +53,18 @@ namespace Valve.VR.InteractionSystem.Sample
         {
            if(SteamVR_Input.__actions_default_in_GrabPinch.GetStateDown(hand.handType))
            {
-                SceneManager.LoadScene("TestScene");
+                StartCoroutine(StartAudio());
            }
+        }
+
+        IEnumerator StartAudio()
+        {
+            AudioSource audio = GetComponent<AudioSource>();
+
+            audio.Play();
+            yield return new WaitForSeconds(audio.clip.length);
+            audioDone = true;
+            GetComponent<SteamVR_LoadLevel>().Trigger();
         }
 
 
