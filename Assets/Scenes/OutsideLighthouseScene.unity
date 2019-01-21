@@ -113,6 +113,10 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &49206496 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 125964, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+  m_PrefabInternal: {fileID: 234841136}
 --- !u!1001 &193944786
 Prefab:
   m_ObjectHideFlags: 0
@@ -424,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17fddd8b3ff962d4a8d41761f262b410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vrCamera: {fileID: 49206496}
 --- !u!114 &880579692
 MonoBehaviour:
   m_ObjectHideFlags: 0

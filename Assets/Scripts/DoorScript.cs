@@ -14,6 +14,7 @@ namespace Valve.VR.InteractionSystem.Sample
     [RequireComponent(typeof(Interactable))]
     public class DoorScript : MonoBehaviour
     {
+        public GameObject vrCamera;
 
         private Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags & (~Hand.AttachmentFlags.SnapOnAttach) & (~Hand.AttachmentFlags.DetachOthers) & (~Hand.AttachmentFlags.VelocityMovement);
 
@@ -53,6 +54,7 @@ namespace Valve.VR.InteractionSystem.Sample
         {
            if(SteamVR_Input.__actions_default_in_GrabPinch.GetStateDown(hand.handType))
            {
+                SteamVR_Fade.Start(new Color(0.1f,0.1f,0.1f,1),6);
                 StartCoroutine(StartAudio());
            }
         }
