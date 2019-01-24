@@ -14,7 +14,6 @@ namespace Valve.VR.InteractionSystem.Sample
     [RequireComponent(typeof(Interactable))]
     public class DoorScript : MonoBehaviour
     {
-        public GameObject vrCamera;
 
         private Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags & (~Hand.AttachmentFlags.SnapOnAttach) & (~Hand.AttachmentFlags.DetachOthers) & (~Hand.AttachmentFlags.VelocityMovement);
 

@@ -41,6 +41,7 @@ public class FlashlightToggle : MonoBehaviour {
                 {
                     GetComponent<Light>().intensity = 1;
                 }
+                GetComponent<AudioSource>().Play();
             }
         }
         if(hand.AttachedObjects.Count == 0)
