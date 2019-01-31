@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OutsideLighthouseScene.unity
-    guid: 2a76f21c3b8369d4f95dad0e58fc85ec
+    path: Assets/Scenes/Outside/OutsideLighthouseStart.unity
+    guid: 2f8df2c095df13d41b4835cfa2929ccf
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: b6d17ea5061617344a43d6189c1d29f0
+    path: Assets/Scenes/Outside/OutsideLighthouseEnd.unity
+    guid: fd719570acb5dc64881aca81f7f343bf
   m_configObjects: {}

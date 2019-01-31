@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 78750361ceccb6e4590906e09502b264
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 1, OG
+    100002: 2DZeichnung
+    100004: "Au\xDFen"
+    100006: Basement
+    100008: Ceranfeld
+    100010: Concrete
+    100012: Dachschindeln
+    100014: Default
+    100016: diesel-engine
+    100018: EG
+    100020: Glas
+    100022: Glas_2
+    100024: Holz
+    100026: "Holz, au\xDFen"
+    100028: "Holz, au\xDFen_2"
+    100030: Holz, innen
+    100032: Holz, innen_2
+    100034: Keramik
+    100036: kuschelig
+    100038: "K\xFCche"
+    100040: Layer 02
+    100042: Layer 03
+    100044: Layer 04
+    100046: Layer 05
+    100048: //RootNode
+    100050: Linien
+    100052: Lochblech/Metall mit Muster?
+    100054: Luftraum
+    100056: Metall
+    100058: Metall_2
+    100060: Metall_3
+    100062: Metall_4
+    100064: "M\xF6bel"
+    100066: Schublade_oeffnen
+    100068: Schubladengriffe
+    100070: Sichtbar
+    100072: Sign
+    100074: Stein/Ziegel/...
+    100076: Stein/Ziegel/wieauchimmer, innen
+    100078: Structural - Bearing
+    100080: Vergangenheit
+    100082: Ziegel/Stein
+    100084: Zou_Chill_lamp_bulb
+    100086: Zou_Chill_lamp_hexahedron_bolt
+    100088: Zou_Chill_lamp_holder
+    100090: Zou_Chill_lamp_holder_cover
+    400000: 1, OG
+    400002: 2DZeichnung
+    400004: "Au\xDFen"
+    400006: Basement
+    400008: Ceranfeld
+    400010: Concrete
+    400012: Dachschindeln
+    400014: Default
+    400016: diesel-engine
+    400018: EG
+    400020: Glas
+    400022: Glas_2
+    400024: Holz
+    400026: "Holz, au\xDFen"
+    400028: "Holz, au\xDFen_2"
+    400030: Holz, innen
+    400032: Holz, innen_2
+    400034: Keramik
+    400036: kuschelig
+    400038: "K\xFCche"
+    400040: Layer 02
+    400042: Layer 03
+    400044: Layer 04
+    400046: Layer 05
+    400048: //RootNode
+    400050: Linien
+    400052: Lochblech/Metall mit Muster?
+    400054: Luftraum
+    400056: Metall
+    400058: Metall_2
+    400060: Metall_3
+    400062: Metall_4
+    400064: "M\xF6bel"
+    400066: Schublade_oeffnen
+    400068: Schubladengriffe
+    400070: Sichtbar
+    400072: Sign
+    400074: Stein/Ziegel/...
+    400076: Stein/Ziegel/wieauchimmer, innen
+    400078: Structural - Bearing
+    400080: Vergangenheit
+    400082: Ziegel/Stein
+    400084: Zou_Chill_lamp_bulb
+    400086: Zou_Chill_lamp_hexahedron_bolt
+    400088: Zou_Chill_lamp_holder
+    400090: Zou_Chill_lamp_holder_cover
+    2100000: Material_2
+    2100002: Material_1
+    2300000: Schublade_oeffnen
+    2300002: Schubladengriffe
+    3300000: Schublade_oeffnen
+    3300002: Schubladengriffe
+    4300000: Schublade_oeffnen
+    4300002: Schubladengriffe
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
