@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: d4908bd64c1e9f245adb3c63c58d49cf
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Hebel
+    100002: Hebel_2
+    100004: Hebel_3
+    100006: LAMPE_Metall
+    100008: Lampe_Metall
+    100010: LAMPE_Metall_2
+    100012: Lampe_Metall_2
+    100014: LAMPE_Metall_3
+    100016: LAMPE_Metall_4
+    100018: LAMPE_Metall_5
+    100020: Object_6
+    100022: //RootNode
+    400000: Hebel
+    400002: Hebel_2
+    400004: Hebel_3
+    400006: LAMPE_Metall
+    400008: Lampe_Metall
+    400010: LAMPE_Metall_2
+    400012: Lampe_Metall_2
+    400014: LAMPE_Metall_3
+    400016: LAMPE_Metall_4
+    400018: LAMPE_Metall_5
+    400020: Object_6
+    400022: //RootNode
+    2100000: Material_1
+    2100002: Material_2
+    2100004: Material_3
+    2100006: Material_4
+    2100008: Material_5
+    2100010: Material_7
+    2100012: Material_8
+    2100014: Material_9
+    2300000: Hebel
+    2300002: Hebel_2
+    2300004: Hebel_3
+    2300006: LAMPE_Metall
+    2300008: Lampe_Metall
+    2300010: LAMPE_Metall_2
+    2300012: Lampe_Metall_2
+    2300014: LAMPE_Metall_3
+    2300016: LAMPE_Metall_4
+    2300018: LAMPE_Metall_5
+    2300020: Object_6
+    3300000: Hebel
+    3300002: Hebel_2
+    3300004: Hebel_3
+    3300006: LAMPE_Metall
+    3300008: Lampe_Metall
+    3300010: LAMPE_Metall_2
+    3300012: Lampe_Metall_2
+    3300014: LAMPE_Metall_3
+    3300016: LAMPE_Metall_4
+    3300018: LAMPE_Metall_5
+    3300020: Object_6
+    4300000: Lampe_Metall
+    4300002: LAMPE_Metall
+    4300004: LAMPE_Metall_2
+    4300006: LAMPE_Metall_3
+    4300008: LAMPE_Metall_4
+    4300010: Lampe_Metall_2
+    4300012: LAMPE_Metall_5
+    4300014: Object_6
+    4300016: Hebel
+    4300018: Hebel_2
+    4300020: Hebel_3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

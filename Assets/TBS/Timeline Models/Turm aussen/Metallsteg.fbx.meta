@@ -1,19 +1,13 @@
 fileFormatVersion: 2
 guid: 9476690ac604134419f04ee76f69c348
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
-    100000: "Au\xDFen"
-    100002: Lochblech/Metall mit Muster?
-    100004: //RootNode
-    100006: Object_1
-    400000: "Au\xDFen"
-    400002: Lochblech/Metall mit Muster?
-    400004: //RootNode
-    400006: Object_1
+    100000: //RootNode
+    400000: //RootNode
     2100000: Material_2
-    2300000: Object_1
-    3300000: Object_1
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Object_1
   externalObjects: {}
   materials:
@@ -66,8 +60,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -87,6 +79,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

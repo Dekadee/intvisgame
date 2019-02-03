@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 325aaeb077fb7ee4baead8f26e213d47
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Spind1
+    100004: Spind1_2
+    100006: Spind1_3
+    100008: Spind1_4
+    100010: Spind1_5
+    100012: Spind1_6
+    100014: Spind1_7
+    100016: Spind1_8
+    100018: Spind1_9
+    100020: Spind2
+    100022: Spind2_2
+    100024: Spind2_3
+    100026: Spind2_4
+    100028: Spind2_5
+    100030: Spind2_6
+    100032: Spind2_7
+    100034: Spind2_8
+    100036: Spind2_9
+    400000: //RootNode
+    400002: Spind1
+    400004: Spind1_2
+    400006: Spind1_3
+    400008: Spind1_4
+    400010: Spind1_5
+    400012: Spind1_6
+    400014: Spind1_7
+    400016: Spind1_8
+    400018: Spind1_9
+    400020: Spind2
+    400022: Spind2_2
+    400024: Spind2_3
+    400026: Spind2_4
+    400028: Spind2_5
+    400030: Spind2_6
+    400032: Spind2_7
+    400034: Spind2_8
+    400036: Spind2_9
+    2100000: Material_1
+    2300000: Spind1
+    2300002: Spind1_2
+    2300004: Spind1_3
+    2300006: Spind1_4
+    2300008: Spind1_5
+    2300010: Spind1_6
+    2300012: Spind1_7
+    2300014: Spind1_8
+    2300016: Spind1_9
+    2300018: Spind2
+    2300020: Spind2_2
+    2300022: Spind2_3
+    2300024: Spind2_4
+    2300026: Spind2_5
+    2300028: Spind2_6
+    2300030: Spind2_7
+    2300032: Spind2_8
+    2300034: Spind2_9
+    3300000: Spind1
+    3300002: Spind1_2
+    3300004: Spind1_3
+    3300006: Spind1_4
+    3300008: Spind1_5
+    3300010: Spind1_6
+    3300012: Spind1_7
+    3300014: Spind1_8
+    3300016: Spind1_9
+    3300018: Spind2
+    3300020: Spind2_2
+    3300022: Spind2_3
+    3300024: Spind2_4
+    3300026: Spind2_5
+    3300028: Spind2_6
+    3300030: Spind2_7
+    3300032: Spind2_8
+    3300034: Spind2_9
+    4300000: Spind1_9
+    4300002: Spind1_8
+    4300004: Spind1_7
+    4300006: Spind1_6
+    4300008: Spind1_5
+    4300010: Spind1_4
+    4300012: Spind1_3
+    4300014: Spind1_2
+    4300016: Spind1
+    4300018: Spind2_9
+    4300020: Spind2_8
+    4300022: Spind2_7
+    4300024: Spind2_6
+    4300026: Spind2_5
+    4300028: Spind2_4
+    4300030: Spind2_3
+    4300032: Spind2_2
+    4300034: Spind2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

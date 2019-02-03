@@ -1,0 +1,358 @@
+fileFormatVersion: 2
+guid: 3aec7f0ffa323d844a132de61dc04e89
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Badarmatur
+    100004: Badarmatur_10
+    100006: Badarmatur_11
+    100008: Badarmatur_12
+    100010: Badarmatur_13
+    100012: Badarmatur_14
+    100014: Badarmatur_15
+    100016: Badarmatur_2
+    100018: Badarmatur_3
+    100020: Badarmatur_4
+    100022: Badarmatur_5
+    100024: Badarmatur_6
+    100026: Badarmatur_7
+    100028: Badarmatur_8
+    100030: Badarmatur_9
+    100032: Klo
+    100034: Klo_2
+    100036: Klo_3
+    100038: Klo_4
+    100040: Klo_5
+    100042: Klo_6
+    100044: Klo_7
+    100046: Klo_8
+    100048: Object_1
+    100050: Object_2
+    100052: Object_3
+    100054: Object_4
+    100056: Object_5
+    100058: Waschbecken
+    100060: Waschbecken_10
+    100062: Waschbecken_11
+    100064: Waschbecken_12
+    100066: Waschbecken_13
+    100068: Waschbecken_2
+    100070: Waschbecken_3
+    100072: Waschbecken_4
+    100074: Waschbecken_5
+    100076: Waschbecken_6
+    100078: Waschbecken_7
+    100080: Waschbecken_8
+    100082: Waschbecken_9
+    100084: Wasserhahn
+    100086: Wasserhahn_2
+    100088: Wasserhahn_3
+    100090: Wasserhahn_4
+    400000: //RootNode
+    400002: Badarmatur
+    400004: Badarmatur_10
+    400006: Badarmatur_11
+    400008: Badarmatur_12
+    400010: Badarmatur_13
+    400012: Badarmatur_14
+    400014: Badarmatur_15
+    400016: Badarmatur_2
+    400018: Badarmatur_3
+    400020: Badarmatur_4
+    400022: Badarmatur_5
+    400024: Badarmatur_6
+    400026: Badarmatur_7
+    400028: Badarmatur_8
+    400030: Badarmatur_9
+    400032: Klo
+    400034: Klo_2
+    400036: Klo_3
+    400038: Klo_4
+    400040: Klo_5
+    400042: Klo_6
+    400044: Klo_7
+    400046: Klo_8
+    400048: Object_1
+    400050: Object_2
+    400052: Object_3
+    400054: Object_4
+    400056: Object_5
+    400058: Waschbecken
+    400060: Waschbecken_10
+    400062: Waschbecken_11
+    400064: Waschbecken_12
+    400066: Waschbecken_13
+    400068: Waschbecken_2
+    400070: Waschbecken_3
+    400072: Waschbecken_4
+    400074: Waschbecken_5
+    400076: Waschbecken_6
+    400078: Waschbecken_7
+    400080: Waschbecken_8
+    400082: Waschbecken_9
+    400084: Wasserhahn
+    400086: Wasserhahn_2
+    400088: Wasserhahn_3
+    400090: Wasserhahn_4
+    2100000: Paint - Titanium White_5
+    2100002: Paint - Titanium White_3
+    2100004: Metal - Stainless Steel_20
+    2100006: Metal - Stainless Steel_19
+    2100008: Metal - Stainless Steel_18
+    2100010: Metal - Stainless Steel_17
+    2100012: Metal - Stainless Steel_16
+    2100014: Metal - Stainless Steel_15
+    2100016: Metal - Stainless Steel_14
+    2100018: Metal - Stainless Steel_13
+    2100020: Metal - Stainless Steel_12
+    2100022: Metal - Stainless Steel_11
+    2100024: Metal - Stainless Steel_10
+    2100026: Metal - Stainless Steel_9
+    2100028: Metal - Stainless Steel_8
+    2100030: Metal - Stainless Steel_7
+    2100032: Metal - Stainless Steel_6
+    2100034: Ceramic - Porcelain_9
+    2100036: Metal - Stainless Steel_5
+    2100038: Metal - Stainless Steel_4
+    2100040: Metal - Stainless Steel_3
+    2100042: Metal - Stainless Steel_2
+    2100044: Ceramic - Porcelain_7
+    2100046: Paint - Titanium White_4
+    2100048: Paint - Titanium White_2
+    2100050: Paint - Titanium White
+    2100052: Ceramic - Porcelain_18
+    2100054: Ceramic - Porcelain_17
+    2100056: Ceramic - Porcelain_16
+    2100058: Ceramic - Porcelain_15
+    2100060: Ceramic - Porcelain_14
+    2100062: Ceramic - Porcelain_13
+    2100064: Ceramic - Porcelain_12
+    2100066: Ceramic - Porcelain_11
+    2100068: Ceramic - Porcelain_10
+    2100070: Ceramic - Porcelain_8
+    2100072: Ceramic - Porcelain_6
+    2100074: Material_6
+    2100076: Ceramic - Porcelain_5
+    2100078: Ceramic - Porcelain_4
+    2100080: Ceramic - Porcelain_3
+    2100082: Ceramic - Porcelain_2
+    2100084: Plastic - Laminate
+    2100086: Ceramic - Porcelain
+    2100088: Metal - Stainless Steel
+    2300000: Badarmatur
+    2300002: Badarmatur_10
+    2300004: Badarmatur_11
+    2300006: Badarmatur_12
+    2300008: Badarmatur_13
+    2300010: Badarmatur_14
+    2300012: Badarmatur_15
+    2300014: Badarmatur_2
+    2300016: Badarmatur_3
+    2300018: Badarmatur_4
+    2300020: Badarmatur_5
+    2300022: Badarmatur_6
+    2300024: Badarmatur_7
+    2300026: Badarmatur_8
+    2300028: Badarmatur_9
+    2300030: Klo
+    2300032: Klo_2
+    2300034: Klo_3
+    2300036: Klo_4
+    2300038: Klo_5
+    2300040: Klo_6
+    2300042: Klo_7
+    2300044: Klo_8
+    2300046: Object_1
+    2300048: Object_2
+    2300050: Object_3
+    2300052: Object_4
+    2300054: Object_5
+    2300056: Waschbecken
+    2300058: Waschbecken_10
+    2300060: Waschbecken_11
+    2300062: Waschbecken_12
+    2300064: Waschbecken_13
+    2300066: Waschbecken_2
+    2300068: Waschbecken_3
+    2300070: Waschbecken_4
+    2300072: Waschbecken_5
+    2300074: Waschbecken_6
+    2300076: Waschbecken_7
+    2300078: Waschbecken_8
+    2300080: Waschbecken_9
+    2300082: Wasserhahn
+    2300084: Wasserhahn_2
+    2300086: Wasserhahn_3
+    2300088: Wasserhahn_4
+    3300000: Badarmatur
+    3300002: Badarmatur_10
+    3300004: Badarmatur_11
+    3300006: Badarmatur_12
+    3300008: Badarmatur_13
+    3300010: Badarmatur_14
+    3300012: Badarmatur_15
+    3300014: Badarmatur_2
+    3300016: Badarmatur_3
+    3300018: Badarmatur_4
+    3300020: Badarmatur_5
+    3300022: Badarmatur_6
+    3300024: Badarmatur_7
+    3300026: Badarmatur_8
+    3300028: Badarmatur_9
+    3300030: Klo
+    3300032: Klo_2
+    3300034: Klo_3
+    3300036: Klo_4
+    3300038: Klo_5
+    3300040: Klo_6
+    3300042: Klo_7
+    3300044: Klo_8
+    3300046: Object_1
+    3300048: Object_2
+    3300050: Object_3
+    3300052: Object_4
+    3300054: Object_5
+    3300056: Waschbecken
+    3300058: Waschbecken_10
+    3300060: Waschbecken_11
+    3300062: Waschbecken_12
+    3300064: Waschbecken_13
+    3300066: Waschbecken_2
+    3300068: Waschbecken_3
+    3300070: Waschbecken_4
+    3300072: Waschbecken_5
+    3300074: Waschbecken_6
+    3300076: Waschbecken_7
+    3300078: Waschbecken_8
+    3300080: Waschbecken_9
+    3300082: Wasserhahn
+    3300084: Wasserhahn_2
+    3300086: Wasserhahn_3
+    3300088: Wasserhahn_4
+    4300000: Object_5
+    4300002: Object_3
+    4300004: Badarmatur_15
+    4300006: Badarmatur_14
+    4300008: Badarmatur_13
+    4300010: Badarmatur_12
+    4300012: Badarmatur_11
+    4300014: Badarmatur_10
+    4300016: Badarmatur_9
+    4300018: Badarmatur_8
+    4300020: Badarmatur_7
+    4300022: Badarmatur_6
+    4300024: Badarmatur_5
+    4300026: Badarmatur_4
+    4300028: Badarmatur_3
+    4300030: Badarmatur_2
+    4300032: Badarmatur
+    4300034: Waschbecken_5
+    4300036: Wasserhahn_4
+    4300038: Wasserhahn_3
+    4300040: Wasserhahn_2
+    4300042: Wasserhahn
+    4300044: Waschbecken_3
+    4300046: Object_4
+    4300048: Object_2
+    4300050: Object_1
+    4300052: Klo_8
+    4300054: Waschbecken_13
+    4300056: Waschbecken_12
+    4300058: Waschbecken_11
+    4300060: Waschbecken_10
+    4300062: Waschbecken_9
+    4300064: Waschbecken_8
+    4300066: Waschbecken_7
+    4300068: Waschbecken_6
+    4300070: Waschbecken_4
+    4300072: Waschbecken_2
+    4300074: Waschbecken
+    4300076: Klo_7
+    4300078: Klo_6
+    4300080: Klo_5
+    4300082: Klo_4
+    4300084: Klo_3
+    4300086: Klo_2
+    4300088: Klo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
