@@ -17,7 +17,7 @@ public class FlashlightToggle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (SteamVR_Input.__actions_default_in_ToggleFlashlight.GetChanged(SteamVR_Input_Sources.Any))
+        if (SteamVR_Input.__actions_default_in_ToggleFlashlight.GetChanged(SteamVR_Input_Sources.RightHand))
         {
             if (hand.AttachedObjects.Count > 0 )
             {

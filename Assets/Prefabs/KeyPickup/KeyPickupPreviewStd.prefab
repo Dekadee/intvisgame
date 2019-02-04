@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4449073367173246}
   - component: {fileID: 33311078915398224}
   - component: {fileID: 23439033467673206}
+  - component: {fileID: 114741207754146702}
   m_Layer: 0
   m_Name: KeyPickupPreviewStd
   m_TagString: Ghost
@@ -56,7 +57,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 8debecd6d83e3ff4cb919e045c1f1a32, type: 2}
+  - {fileID: 2100000, guid: 58473e8defa2ee24ea8eca486c1f3006, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,3 +84,14 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1533429893203562}
   m_Mesh: {fileID: 4300000, guid: 42c58e414b0abed4c829698d7b00225a, type: 3}
+--- !u!114 &114741207754146702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533429893203562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6550ff9cc0700d448bf052b6eebcce4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

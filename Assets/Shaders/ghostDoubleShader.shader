@@ -15,7 +15,7 @@
 
 		CGPROGRAM
 		// Physically based Standard lighting model, and enable shadows on all light types
-#pragma surface surf Standard fullforwardshadows alpha:fade
+#pragma surface surf Standard fullforwardshadows //alpha:fade
 
 		// Use shader model 3.0 target, to get nicer looking lighting
 #pragma target 3.0
@@ -58,6 +58,7 @@
 		fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
 		fixed4 c2 = tex2D(_Secondary, IN.uv_MainTex) * _Color;
 		o.Albedo = ((1-alpha) * c.rgb) + (alpha*c2.rbg);
+		//o.Albedo = c.rgb;
 		// Metallic and smoothness come from slider variables
 		o.Metallic = _Metallic;
 		o.Smoothness = _Glossiness;

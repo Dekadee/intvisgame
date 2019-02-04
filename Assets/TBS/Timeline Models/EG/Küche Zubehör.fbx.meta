@@ -34,6 +34,9 @@ ModelImporter:
     100056: Object_9
     100058: Vergangenheit
     100060: Zylinder
+    100062: Camera
+    100064: Cylinder
+    100066: Lamp
     400000: Ceranfeld
     400002: Default
     400004: EG
@@ -65,6 +68,10 @@ ModelImporter:
     400056: Object_9
     400058: Vergangenheit
     400060: Zylinder
+    400062: Camera
+    400064: Cylinder
+    400066: Lamp
+    2000000: Camera
     2100000: Metal - Stainless Steel
     2100002: Metal - Stainless Steel_2
     2100004: Material_4
@@ -74,6 +81,7 @@ ModelImporter:
     2100012: Mat.1
     2100014: Mat
     2100016: Mat1
+    2100018: No Name
     2300000: Kegel
     2300002: Kugel
     2300004: NurbsPath.018
@@ -99,6 +107,7 @@ ModelImporter:
     2300044: Object_8
     2300046: Object_9
     2300048: Zylinder
+    2300050: Cylinder
     3300000: Kegel
     3300002: Kugel
     3300004: NurbsPath.018
@@ -124,6 +133,7 @@ ModelImporter:
     3300044: Object_8
     3300046: Object_9
     3300048: Zylinder
+    3300050: Cylinder
     4300000: Object_1
     4300002: Object_2
     4300004: Object_5
@@ -149,6 +159,8 @@ ModelImporter:
     4300044: Kugel
     4300046: Kegel
     4300048: Zylinder
+    4300050: Cylinder
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1

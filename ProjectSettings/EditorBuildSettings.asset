@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Outside/OutsideLighthouseStart.unity
     guid: 2f8df2c095df13d41b4835cfa2929ccf
   - enabled: 1
+    path: Assets/Scenes/Floors/FirstFloor.unity
+    guid: d9ed117128b82db42a2c7f8d13e30963
+  - enabled: 1
+    path: Assets/Scenes/Floors/SecondFloor.unity
+    guid: a622c578c44b6b047b3c8c951f8414f1
+  - enabled: 1
+    path: Assets/Scenes/Floors/ThirdFloor.unity
+    guid: c9910e4145abfd447b36529619428651
+  - enabled: 1
     path: Assets/Scenes/Outside/OutsideLighthouseEnd.unity
     guid: fd719570acb5dc64881aca81f7f343bf
   m_configObjects: {}

@@ -60,7 +60,7 @@ MonoBehaviour:
   requireTriggerPressToReturn: 0
   showTriggerHint: 0
   attachmentFlags: 47
-  takeBackItem: 0
+  takeBackItem: 1
   acceptDifferentItems: 0
   pickupEvent:
     m_PersistentCalls:

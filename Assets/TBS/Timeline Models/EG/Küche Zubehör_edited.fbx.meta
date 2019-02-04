@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: cbc1e6b485dd11e4eb5e113a70dfca29
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Ceranfeld
+    100004: Cylinder
+    100006: Default
+    100008: EG
+    100010: Kugel
+    100012: //RootNode
+    100014: Lamp
+    100016: Metall
+    100018: NurbsPath.018
+    100020: Object_1
+    100022: Object_10
+    100024: Object_11
+    100026: Object_12
+    100028: Object_13
+    100030: Object_14
+    100032: Object_15
+    100034: Object_16
+    100036: Object_17
+    100038: Object_18
+    100040: Object_19
+    100042: Object_2
+    100044: Object_20
+    100046: Object_22
+    100048: Object_23
+    100050: Object_3
+    100052: Object_5
+    100054: Object_6
+    100056: Object_7
+    100058: Object_8
+    100060: Object_9
+    100062: Vergangenheit
+    100064: Zylinder
+    400000: Camera
+    400002: Ceranfeld
+    400004: Cylinder
+    400006: Default
+    400008: EG
+    400010: Kugel
+    400012: //RootNode
+    400014: Lamp
+    400016: Metall
+    400018: NurbsPath.018
+    400020: Object_1
+    400022: Object_10
+    400024: Object_11
+    400026: Object_12
+    400028: Object_13
+    400030: Object_14
+    400032: Object_15
+    400034: Object_16
+    400036: Object_17
+    400038: Object_18
+    400040: Object_19
+    400042: Object_2
+    400044: Object_20
+    400046: Object_22
+    400048: Object_23
+    400050: Object_3
+    400052: Object_5
+    400054: Object_6
+    400056: Object_7
+    400058: Object_8
+    400060: Object_9
+    400062: Vergangenheit
+    400064: Zylinder
+    2000000: Camera
+    2100000: No Name
+    2100002: Mat1
+    2100004: Mat.1
+    2100006: Material_4
+    2100008: Metal - Stainless Steel_3
+    2100010: Metal - Chrome 01
+    2100012: Material_21
+    2100014: Metal - Stainless Steel_2
+    2100016: Metal - Stainless Steel
+    2300000: Cylinder
+    2300002: Kugel
+    2300004: NurbsPath.018
+    2300006: Object_1
+    2300008: Object_10
+    2300010: Object_11
+    2300012: Object_12
+    2300014: Object_13
+    2300016: Object_14
+    2300018: Object_15
+    2300020: Object_16
+    2300022: Object_17
+    2300024: Object_18
+    2300026: Object_19
+    2300028: Object_2
+    2300030: Object_20
+    2300032: Object_22
+    2300034: Object_23
+    2300036: Object_3
+    2300038: Object_5
+    2300040: Object_6
+    2300042: Object_7
+    2300044: Object_8
+    2300046: Object_9
+    2300048: Zylinder
+    3300000: Cylinder
+    3300002: Kugel
+    3300004: NurbsPath.018
+    3300006: Object_1
+    3300008: Object_10
+    3300010: Object_11
+    3300012: Object_12
+    3300014: Object_13
+    3300016: Object_14
+    3300018: Object_15
+    3300020: Object_16
+    3300022: Object_17
+    3300024: Object_18
+    3300026: Object_19
+    3300028: Object_2
+    3300030: Object_20
+    3300032: Object_22
+    3300034: Object_23
+    3300036: Object_3
+    3300038: Object_5
+    3300040: Object_6
+    3300042: Object_7
+    3300044: Object_8
+    3300046: Object_9
+    3300048: Zylinder
+    4300000: Cylinder
+    4300002: Zylinder
+    4300004: Kugel
+    4300006: Object_3
+    4300008: Object_23
+    4300010: Object_22
+    4300012: NurbsPath.018
+    4300014: Object_20
+    4300016: Object_19
+    4300018: Object_18
+    4300020: Object_17
+    4300022: Object_16
+    4300024: Object_15
+    4300026: Object_14
+    4300028: Object_13
+    4300030: Object_12
+    4300032: Object_11
+    4300034: Object_10
+    4300036: Object_9
+    4300038: Object_8
+    4300040: Object_7
+    4300042: Object_6
+    4300044: Object_5
+    4300046: Object_2
+    4300048: Object_1
+    10800000: Lamp
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

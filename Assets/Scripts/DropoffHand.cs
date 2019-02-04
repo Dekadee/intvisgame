@@ -31,10 +31,12 @@ public class DropoffHand : MonoBehaviour {
             {
                 if (names.Contains(obj.attachedObject.tag))
                 {
-                    Debug.Log(obj.attachedObject.tag);
+                    
                     hand.DetachObject(obj.attachedObject);
-                    Destroy(pickupPoint);
-                    return;
+                    //Destroy(pickupPoint);
+                    SteamVR_Fade.Start(new Color(0f, 0f, 0f, 1), 6);
+                    GameObject.Find("SceneLoader").GetComponent<SteamVR_LoadLevel>().Trigger();
+
                 }
             }
         }

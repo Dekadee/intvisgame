@@ -11,6 +11,9 @@ public class GeneratorStart : MonoBehaviour {
     [SerializeField]
     private Light[] lights;
 
+    [SerializeField]
+    private GameObject teleportPoint;
+        
 	// Use this for initialization
 	void Start () {
 		
@@ -18,10 +21,6 @@ public class GeneratorStart : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(mapping.value > 0)
-        {
-            //Play sound here
-        }
         if(mapping.value > 0.85)
         {
             foreach(Light light in lights)
@@ -29,6 +28,7 @@ public class GeneratorStart : MonoBehaviour {
                 light.enabled = true;
             }
             GetComponent<AudioSource>().Play();
+            teleportPoint.SetActive(true);
         }
 	}
 }

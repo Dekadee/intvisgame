@@ -12,6 +12,7 @@ public class Loader : MonoBehaviour {
         {
             Instantiate(ghostManager);
         }
+        DynamicGI.UpdateEnvironment();
 	}
 	
 	// Update is called once per frame

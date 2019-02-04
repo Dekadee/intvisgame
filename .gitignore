@@ -5,7 +5,8 @@
 [Bb]uilds/
 [Ll]ogs/
 
-Aura/Examples/
+# Aura/Examples/
+Aura/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*

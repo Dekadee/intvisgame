@@ -26,7 +26,7 @@ public class GhostScript : MonoBehaviour {
             Destroy(gameObject);
 
         //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
+       // DontDestroyOnLoad(gameObject);
     }
 
     // Use this for initialization

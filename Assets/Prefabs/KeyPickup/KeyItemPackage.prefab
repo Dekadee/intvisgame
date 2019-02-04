@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   packageType: 1
-  itemPrefab: {fileID: 1436764959454540, guid: 2ec6c731d116da047a536a90d56c2c0c, type: 2}
+  itemPrefab: {fileID: 1151887804048616, guid: 1809a36dd57a619449cd471e3f4dab43, type: 2}
   otherHandItemPrefab: {fileID: 0}
   previewPrefab: {fileID: 1533429893203562, guid: a9fb406743e15b143aedd4d7b2f2c200,
     type: 2}

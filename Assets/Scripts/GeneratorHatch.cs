@@ -9,8 +9,6 @@ public class GeneratorHatch : MonoBehaviour {
     private Collider handleCol;
     [SerializeField]
     private LinearMapping mapping;
-    [SerializeField]
-    private AudioSource audioHatch;
 
 
 	// Use this for initialization

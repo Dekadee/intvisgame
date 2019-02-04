@@ -19,12 +19,20 @@ namespace Valve.VR.InteractionSystem.Sample
 
         private Interactable interactable;
 
-        private bool audioDone = false;
-
         //-------------------------------------------------
         void Awake()
         {
             interactable = this.GetComponent<Interactable>();
+        }
+
+        private GameObject handObj;
+        private Hand hand;
+
+        // Use this for initialization
+        void Start()
+        {
+            handObj = GameObject.Find("RightHand");
+            hand = handObj.GetComponent<Hand>();
         }
 
 
@@ -49,22 +57,33 @@ namespace Valve.VR.InteractionSystem.Sample
         //-------------------------------------------------
         // Called every Update() while a Hand is hovering over this object
         //-------------------------------------------------
-        private void HandHoverUpdate(Hand hand)
+        private void HandHoverUpdate(Hand hand2)
         {
-           if(SteamVR_Input.__actions_default_in_GrabPinch.GetStateDown(hand.handType))
+           if(SteamVR_Input.__actions_default_in_GrabPinch.GetStateDown(hand2.handType))
            {
-                SteamVR_Fade.Start(new Color(0.1f,0.1f,0.1f,1),6);
-                StartCoroutine(StartAudio());
+                if (hand.AttachedObjects.Count > 0)
+                {
+                    foreach (Hand.AttachedObject obj in hand.AttachedObjects)
+                    {
+                        if (obj.attachedObject.tag.Equals("Flashlight"))
+                        {
+                            SteamVR_Fade.Start(new Color(0f, 0f, 0f, 1), 6);
+                            StartCoroutine(PlayAudio());
+                            return;
+                        }
+                    }
+                }
+
+               
            }
         }
 
-        IEnumerator StartAudio()
+        IEnumerator PlayAudio()
         {
             AudioSource audio = GetComponent<AudioSource>();
 
             audio.Play();
             yield return new WaitForSeconds(audio.clip.length);
-            audioDone = true;
             GetComponent<SteamVR_LoadLevel>().Trigger();
         }
 
