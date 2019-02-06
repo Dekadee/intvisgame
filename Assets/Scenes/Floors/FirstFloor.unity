@@ -1069,6 +1069,53 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 168084073}
   m_Mesh: {fileID: 4300028, guid: 2148f333c94e9864ba1aa567df9fb5b9, type: 3}
+--- !u!1001 &173083852
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 9.3046875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -12.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4573864686260946, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 82741289120521200, guid: 0307453bc51a7e44f8f9168cc7beabaf,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0307453bc51a7e44f8f9168cc7beabaf, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &183852078
 GameObject:
   m_ObjectHideFlags: 0
