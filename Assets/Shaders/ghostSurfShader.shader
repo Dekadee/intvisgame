@@ -2,7 +2,6 @@
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
-		_BumpMap("Bump Map", 2D) = "bunp" {}
 		_Glossiness ("Smoothness", Range(0,1)) = 0.0
 		_Metallic ("Metallic", Range(0,1)) = 0.0
 		_SpotAngle("Spot Angle", Float) = 60.0

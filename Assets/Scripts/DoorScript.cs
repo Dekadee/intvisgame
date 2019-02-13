@@ -8,12 +8,15 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
+
 namespace Valve.VR.InteractionSystem.Sample
 {
     //-------------------------------------------------------------------------
     [RequireComponent(typeof(Interactable))]
     public class DoorScript : MonoBehaviour
     {
+        [SerializeField]
+        private GameObject canvas;
 
         private Hand.AttachmentFlags attachmentFlags = Hand.defaultAttachmentFlags & (~Hand.AttachmentFlags.SnapOnAttach) & (~Hand.AttachmentFlags.DetachOthers) & (~Hand.AttachmentFlags.VelocityMovement);
 
@@ -72,6 +75,10 @@ namespace Valve.VR.InteractionSystem.Sample
                             return;
                         }
                     }
+                }
+                else
+                {
+                    canvas.SetActive(true);
                 }
 
                
