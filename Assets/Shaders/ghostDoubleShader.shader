@@ -3,6 +3,7 @@
 		_Color("Color", Color) = (1,1,1,1)
 		_MainTex("Albedo (RGB)", 2D) = "white" {}
 		_Secondary("Albedo (RGB)", 2D) = "grey" {}
+		_BumpMap("Bump Map", 2D) = "bunp" {}
 		_Glossiness("Smoothness", Range(0,1)) = 0.0
 		_Metallic("Metallic", Range(0,1)) = 0.0
 		_SpotAngle("Spot Angle", Float) = 60.0
@@ -14,19 +15,25 @@
 		LOD 200
 
 		CGPROGRAM
+#pragma enable_d3d11_debug_symbols
 		// Physically based Standard lighting model, and enable shadows on all light types
-#pragma surface surf Standard fullforwardshadows //alpha:fade
+#pragma surface surf Standard fullforwardshadows//alpha:fade
 
 		// Use shader model 3.0 target, to get nicer looking lighting
 #pragma target 3.0
 
+
+
 		sampler2D _MainTex;
 		sampler2D _Secondary;
+		sampler2D _BumpMap;
 
 	struct Input {
 		float2 uv_MainTex;
 		float3 worldPos;
 		float3 worldNormal;
+		float2 uv_BumpMap;
+		INTERNAL_DATA
 	};
 
 	half _Glossiness;
@@ -46,7 +53,7 @@
 		// put more per-instance properties here
 		UNITY_INSTANCING_BUFFER_END(Props)
 
-		void surf(Input IN, inout SurfaceOutputStandard o) {
+	void surf(Input IN, inout SurfaceOutputStandard o) {
 		float3 lightDir = IN.worldPos - _LightPos.xyz;
 		half dist = saturate(1 - (length(lightDir) / _Range)); // get distance factor
 		half cosLightDir = dot(normalize(lightDir), normalize(_LightDir)); // get light angle
@@ -58,7 +65,7 @@
 		fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
 		fixed4 c2 = tex2D(_Secondary, IN.uv_MainTex) * _Color;
 		o.Albedo = ((1-alpha) * c.rgb) + (alpha*c2.rbg);
-		//o.Albedo = c.rgb;
+		o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
 		// Metallic and smoothness come from slider variables
 		o.Metallic = _Metallic;
 		o.Smoothness = _Glossiness;
